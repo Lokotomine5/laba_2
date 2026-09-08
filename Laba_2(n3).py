@@ -1,0 +1,5 @@
+f = input('введите 6 чисел через запятую')
+s = f.split(',')
+print(s[5])
+print(s[::-1])
+print((int(s[0]) + int(s[1]) + int(s[2]) + int(s[3]) + int(s[4]) + int(s[5])) / 6)
