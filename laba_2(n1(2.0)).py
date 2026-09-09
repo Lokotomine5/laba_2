@@ -1,6 +1,12 @@
 from math import pi
 x = float(input("Введите x (x < -1): "))
-n = int(input("Введите n: "))
+if x >= -1:
+    print('введите x < -1')
+    exit()
+n = int(input("Введите целое число n > 0: "))
+if n <= 0:
+    print('введите другое число n')
+    exit()
 
 s = -pi/2
 xrazr = x
