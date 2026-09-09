@@ -1,8 +1,8 @@
-import math
+from math import pi
 x = float(input("Введите x (x < -1): "))
 n = int(input("Введите n: "))
 
-s = -math.pi/2
+s = -pi/2
 xrazr = x
 steps = 0
 for b in range(n):
@@ -14,7 +14,7 @@ for b in range(n):
 print('сумма ряда: ', s)
 print('кол-во шагов: ', steps)
 
-d= -math.pi/2
+d= -pi/2
 for q in range(n):
     h = (-1) ** (q+1)/((2*q+1)*x**(2*q+1))
     d += h
